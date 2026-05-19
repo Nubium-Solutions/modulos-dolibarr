@@ -1,0 +1,135 @@
+ModuleDeployManagerName = Deploy Manager
+ModuleDeployManagerDesc = Panel de despliegue de módulos Dolibarr a múltiples instancias
+
+# Menús
+DM_Dashboard = Panel
+DM_Servers = Servidores
+DM_Instances = Instancias
+DM_Modules = Módulos
+DM_Releases = Releases
+DM_Deploy = Desplegar
+DM_History = Historial
+
+# Dashboard
+DM_DashboardTitle = Panel de Despliegues
+DM_TotalServers = Servidores
+DM_TotalInstances = Instancias
+DM_TotalModules = Módulos
+DM_PendingUpdates = Actualizaciones pendientes
+DM_RecentDeploys = Despliegues recientes
+DM_ModuleVersionMatrix = Matriz de versiones
+
+# Servidores
+DM_ServerList = Lista de servidores
+DM_ServerCard = Ficha servidor
+DM_ServerName = Nombre
+DM_ServerHost = Host / IP
+DM_SSHUser = Usuario SSH
+DM_SSHPort = Puerto SSH
+DM_SSHKeyPath = Ruta clave SSH
+DM_IsLocal = Servidor local
+DM_TestConnection = Probar conexión
+DM_ConnectionOK = Conexión SSH correcta
+DM_ConnectionFailed = Error de conexión SSH
+DM_AddServer = Añadir servidor
+DM_EditServer = Editar servidor
+DM_DeleteServer = Eliminar servidor
+
+# Instancias
+DM_InstanceList = Lista de instancias
+DM_InstanceCard = Ficha instancia
+DM_InstanceName = Nombre
+DM_Domain = Dominio
+DM_CustomPath = Ruta custom
+DM_ConfPath = Ruta conf.php
+DM_Environment = Entorno
+DM_Production = Producción
+DM_Staging = Staging
+DM_Development = Desarrollo
+DM_AddInstance = Añadir instancia
+DM_EditInstance = Editar instancia
+DM_DeleteInstance = Eliminar instancia
+DM_ScanModules = Escanear módulos
+DM_ScanAll = Escanear todas
+DM_Scanning = Escaneando...
+DM_ScanComplete = Escaneo completado
+DM_InstalledModules = Módulos instalados
+DM_Server = Servidor
+
+# Módulos
+DM_ModuleList = Lista de módulos
+DM_ModuleCard = Ficha módulo
+DM_ModuleSlug = Slug
+DM_ModuleName = Nombre
+DM_HasMigrations = Tiene migraciones
+DM_LatestVersion = Última versión
+DM_InstalledOn = Instalado en
+DM_Instances = instancias
+
+# Releases
+DM_ReleaseList = Releases
+DM_ReleaseCard = Ficha release
+DM_UploadRelease = Subir release
+DM_SelectZip = Seleccionar archivo ZIP
+DM_Version = Versión
+DM_Changelog = Changelog
+DM_UploadedBy = Subido por
+DM_ZipHash = Hash SHA-256
+DM_InvalidZip = ZIP inválido: debe contener core/modules/mod*.class.php
+DM_VersionExists = Ya existe una release con esa versión
+DM_ReleaseCreated = Release creada correctamente
+DM_UploadError = Error al subir el archivo
+
+# Desplegar
+DM_DeployWizard = Asistente de despliegue
+DM_Step1SelectModule = Paso 1: Seleccionar módulo
+DM_Step2SelectInstances = Paso 2: Seleccionar instancias
+DM_Step3Confirm = Paso 3: Confirmar
+DM_SelectModule = Seleccionar módulo
+DM_SelectVersion = Seleccionar versión
+DM_CurrentVersion = Versión actual
+DM_NewVersion = Nueva versión
+DM_SelectAll = Seleccionar todas
+DM_DeselectAll = Deseleccionar todas
+DM_OnlyOutdated = Solo desactualizadas
+DM_ConfirmDeploy = Confirmar despliegue
+DM_DeployNow = Desplegar ahora
+DM_DeployStarted = Despliegue iniciado
+DM_Deploying = Desplegando...
+
+# Estados despliegue
+DM_StatusPending = Pendiente
+DM_StatusBackingUp = Backup...
+DM_StatusDeploying = Desplegando...
+DM_StatusMigrating = Migrando...
+DM_StatusVerifying = Verificando...
+DM_StatusCompleted = Completado
+DM_StatusFailed = Fallido
+DM_StatusRolledBack = Revertido
+DM_StatusRunning = En curso
+DM_StatusPartialFailure = Parcialmente fallido
+
+# Historial
+DM_DeployHistory = Historial de despliegues
+DM_BatchDetail = Detalle del lote
+DM_Date = Fecha
+DM_Module = Módulo
+DM_Duration = Duración
+DM_Result = Resultado
+DM_ViewLog = Ver log
+DM_Rollback = Revertir
+
+# General
+DM_Active = Activo
+DM_Inactive = Inactivo
+DM_Save = Guardar
+DM_Cancel = Cancelar
+DM_Back = Volver
+DM_Confirm = Confirmar
+DM_Yes = Sí
+DM_No = No
+DM_NotInstalled = No instalado
+DM_UpToDate = Actualizado
+DM_Outdated = Desactualizado
+DM_Unknown = Desconocido
+DM_NoData = Sin datos

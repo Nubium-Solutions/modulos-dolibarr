@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS llx_deploymanager_module (
+    rowid INT AUTO_INCREMENT PRIMARY KEY,
+    slug VARCHAR(100) NOT NULL UNIQUE,
+    display_name VARCHAR(150) NOT NULL,
+    has_migrations TINYINT(1) DEFAULT 0,
+    date_creation DATETIME DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
